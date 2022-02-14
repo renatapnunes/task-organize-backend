@@ -1,11 +1,11 @@
 const express = require('express');
-const routes = require('../routes');
+const router = require('../routes');
 const error = require('../middlewares/error');
 
 const app = express();
 
 app.use(express.json());
-app.use(routes);
+app.use(router);
 
 app.use(error);
 

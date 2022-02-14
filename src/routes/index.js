@@ -1,8 +1,8 @@
 const express = require('express');
 const taskRoutes = require('./taskRoutes');
 
-const route = express.Router({ mergeParams: true });
+const router = express.Router({ mergeParams: true });
 
-route.use('/users', taskRoutes);
+router.use('/task', taskRoutes);
 
-module.exports = route;
+module.exports = router;
