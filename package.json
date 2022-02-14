@@ -1,0 +1,25 @@
+{
+  "name": "task-organize-backend",
+  "version": "1.0.0",
+  "description": "Task Organizer project - for Ebyrt",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatapnunes/task-organize-backend.git"
+  },
+  "author": "Renata Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatapnunes/task-organize-backend/issues"
+  },
+  "homepage": "https://github.com/renatapnunes/task-organize-backend#readme",
+  "dependencies": {
+    "eslint-config-trybe-backend": "^1.0.4",
+    "express": "^4.17.2"
+  }
+}
