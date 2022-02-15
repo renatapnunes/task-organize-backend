@@ -10,5 +10,6 @@ taskRouter.post('/', createController);
 taskRouter.get('/', readController);
 taskRouter.put('/:id', updateController);
 taskRouter.delete('/:id', deleteController);
+taskRouter.delete('/', deleteController);
 
 module.exports = taskRouter;
