@@ -1,4 +1,4 @@
-const insertTask = require('../../services/task/insertTask');
+const insertTask = require('../services/insertTask');
 
 const CREATED = 201;
 
