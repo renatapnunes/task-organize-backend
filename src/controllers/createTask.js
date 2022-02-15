@@ -9,7 +9,7 @@ module.exports = async (req, res, next) => {
     const newTask = await insertTask(taskData);
     if ('error' in newTask) return next(newTask.error);
 
-    return res.status(CREATED).send('Successfully created.');
+    return res.status(CREATED).send({ message: 'Successfully created.' });
   } catch (err) {
     next(err);
   }
