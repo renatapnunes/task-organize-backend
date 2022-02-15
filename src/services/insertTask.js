@@ -1,6 +1,6 @@
 const moment = require('moment');
 
-const taskSchema = require('../schemas/taskSchema');
+const taskSchema = require('../schemas/insertTaskSchema');
 const { insert } = require('../models/entity')('tasks');
 
 module.exports = async (taskData) => {
